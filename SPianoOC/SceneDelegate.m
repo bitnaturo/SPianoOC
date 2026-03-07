@@ -8,6 +8,7 @@
 #import "SceneDelegate.h"
 #import "SDHomeViewController.h"
 #import "SDBaseNavigationController.h"
+#import "SDLoginViewController.h"
 
 @interface SceneDelegate ()
 
@@ -23,10 +24,12 @@
     UIWindowScene *windowScene = (UIWindowScene *)scene;
     self.window = [[UIWindow alloc] initWithWindowScene:windowScene];
 
-    SDHomeViewController *homeViewController = [[SDHomeViewController alloc] init];
-    SDBaseNavigationController *navigationController = [[SDBaseNavigationController alloc] initWithRootViewController:homeViewController];
-
-    self.window.rootViewController = navigationController;
+//    SDHomeViewController *homeViewController = [[SDHomeViewController alloc] init];
+//    SDBaseNavigationController *navigationController = [[SDBaseNavigationController alloc] initWithRootViewController:homeViewController];
+//
+//    self.window.rootViewController = navigationController;
+    SDLoginViewController *loginVC = [SDLoginViewController new];
+    self.window.rootViewController = loginVC;
     [self.window makeKeyAndVisible];
 }
 

@@ -6,10 +6,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "SDBaseViewController.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@interface SDLoginViewController : UIViewController
+@interface SDLoginViewController : SDBaseViewController
 
 @end
 

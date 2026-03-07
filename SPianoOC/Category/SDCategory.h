@@ -11,6 +11,8 @@
 #import "UIColor+SDColor.h"
 #import "UILabel+SDLable.h"
 #import "UIView+SDView.h"
+#import "UITextField+SDTextField.h"
+#import "UIButton+SDButton.h"
 
 
 #endif /* SDCategory_h */

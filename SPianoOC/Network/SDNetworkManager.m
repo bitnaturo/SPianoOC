@@ -41,7 +41,7 @@ NSErrorDomain const SDNetworkErrorDomain = @"com.spiano.network";
     if (self) {
         _timeoutInterval = 20.0;
         _defaultHeaders = @{};
-        _baseURLString = @"http://121.37.231.197:8888";
+        _baseURLString = @"http://121.37.231.197:8888/api/app";
         [self buildSessionManager];
     }
     return self;
